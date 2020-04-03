@@ -5,6 +5,27 @@
 
 body {
   background-color: #e1e9e9;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: #223f4f;
+  text-align: center;
+  margin: 0;
+  padding: 35px;
+  width: 100%;
+  font-size: 1.5em;
+  letter-spacing: 5 px;
+}
+
+header h1 {
+  color: #e1e9e9;
+  margin: 0;
+}
+
+.fa-book {
+  color: #e1e9e9;
 }
 
 #cardDiv {
@@ -20,24 +41,85 @@ body {
   justify-content: center;
 }
 
-#characterDiv > h2 {
+h2 {
   width: 100%;
-}
-
-#plotDiv > h2 {
-  width: 100%;
+  font-size: 1.75em;
 }
 
 .character-card {
-  background-color: #f66401;
-  padding: 30px;
+  background-color: #0c3962;
+  padding: 50px;
   margin: 10px;
-  min-width: 315px;
+  width: 100%;
+  height: 215px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 15px 3px rgba(0, 0, 0, 0.3);
+}
+
+.character-card p {
+  color: #61b1ef;
+  font-family: "Rock Salt", sans-serif;
+  font-size: 1.25em;
 }
 
 .plot-card {
-  background-color: #6a3c45;
-  padding: 30px;
+  background-color: #2d5b55;
+  padding: 50px;
   margin: 10px;
-  min-width: 315px;
+  width: 100%;
+  height: 215px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 15px 3px rgba(0, 0, 0, 0.3);
+}
+
+.plot-card p {
+  color: #50f5a5;
+  font-family: "Rock Salt", sans-serif;
+  font-size: 1.25em;
+}
+
+#cardButton {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  background: #223f4f;
+  padding: 15px;
+  color: #e1e9e9;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  border: solid 2px #223f4f;
+  cursor: pointer;
+}
+
+#cardButton:hover {
+  background: none;
+  color: #223f4f;
+}
+
+#genreButton {
+  background: none;
+  padding: 15px;
+  color: #223f4f;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  border: solid 2px #223f4f;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+#genreButton:hover {
+  background: #223f4f;
+  color: #e1e9e9;
+}
+
+.instruction-div {
+  background: #223f4f;
+  color: #9aa7af;
+}
+
+.instruction-div ul {
 }
