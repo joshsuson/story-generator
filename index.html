@@ -1,38 +1,100 @@
 <!DOCTYPE html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Story Idea Generator</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="main.css">
-    </head>
-    <body>
-       <main>
-        <div id="cardDiv">
-           <div id="characterDiv">
-               <h2>Character Cards</h2>
-               <div class="character-card">
-                    <p>New Character Info will show up here</p>
-               </div>
-               <div class="character-card">
-                   <p>New Character info will show up here</p>
-               </div>
-           </div>
-           <div id="plotDiv">
-               <h2>Plot Cards</h2>
-                <div class="plot-card">
-                   <p>New plot info will show up here</p>
-                </div>
-                <div class="plot-card">
-                    <p>New plot info will show up here</p>
-                </div>
-           </div>
-           <button id="cardButton">Start a new story</button>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Story Idea Generator</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link
+    rel="stylesheet"
+    src="//normalize-css.googlecode.com/svn/trunk/normalize.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Rock+Salt&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="main.css" />
+  <script
+    src="https://kit.fontawesome.com/0563c194c2.js"
+    crossorigin="anonymous"
+  ></script>
+</head>
+<body>
+  <header>
+    <div>
+      <h1><i class="fal fa-book"></i> Story Generator</h1>
+    </div>
+  </header>
+  <main>
+    <div id="cardDiv">
+      <div id="characterDiv">
+        <h2>Character Cards</h2>
+        <div class="character-card">
+          <p>New Character Info will show up here</p>
         </div>
-       </main>
-       <script src="js/CharacterCard.js"></script>
-       <script src="js/PlotCard.js"></script>
-       <script src="js/app.js"></script>
-    </body>
-</html>
+        <div class="character-card">
+          <p>New Character info will show up here</p>
+        </div>
+      </div>
+      <div id="plotDiv">
+        <h2>Plot Cards</h2>
+        <div class="plot-card">
+          <p>New plot info will show up here</p>
+        </div>
+        <div class="plot-card">
+          <p>New plot info will show up here</p>
+        </div>
+      </div>
+      <button id="cardButton">Start a new story</button>
+      <button id="genreButton">Give me a genre too!</button>
+    </div>
+    <div>
+      <h2>How-To Start A Story</h2>
+      <ul>
+        <li>
+          <h3>Step 1: A New Story</h3>
+          <p>
+            Press the start new story button. This will refresh the four cards.
+          </p>
+        </li>
+        <li>
+          <h3>Step 2: Character Cards</h3>
+          <p>
+            Look at the top two cards, they're blue. These two cards make up
+            your main character. This character is who your story is about.
+          </p>
+        </li>
+        <li>
+          <h3>Step 3: Plot Cards</h3>
+          <p>
+            Now it's time to look at the next two cards, the green ones. These
+            are your plot cards. Remember, every great story is about a
+            character who wants something and has to overcome an obstacle to get
+            it. One these cards should be your character want and the other one
+            should be the obstacle. However, it's your story so you can take the
+            plot anywhere you'd like.
+          </p>
+        </li>
+        <li>
+          <h3>Step 4: Write Your Story</h3>
+          <p>
+            Once you have your character and your plot it's time to actually
+            write your story. So open your favorite writting app and start
+            writing.
+          </p>
+        </li>
+        <li>
+          <h3>Bonus Step: A Random Genre</h3>
+          <p>
+            If you'd like to challenge yourself, once you have a story press the
+            genre button to get a random genre as well.
+          </p>
+        </li>
+      </ul>
+    </div>
+  </main>
+  <script src="js/CharacterCard.js"></script>
+  <script src="js/PlotCard.js"></script>
+  <script src="js/app.js"></script>
+</body>

@@ -1,34 +1,43 @@
-#cardDiv {
-    margin: 0 auto;
-    text-align: center;
+* {
+  box-sizing: border-box;
+  font-family: "Do Hyeon", sans-serif;
 }
 
-#characterDiv, #plotDiv {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+body {
+  background-color: #e1e9e9;
+}
+
+#cardDiv {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#characterDiv,
+#plotDiv {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 #characterDiv > h2 {
-    width: 100%;
+  width: 100%;
 }
 
 #plotDiv > h2 {
-    width: 100%;
+  width: 100%;
 }
 
-
 .character-card {
-    background-color: #f66401;
-    padding: 30px;
-    margin: 10px;
-    min-width: 315px;
+  background-color: #f66401;
+  padding: 30px;
+  margin: 10px;
+  min-width: 315px;
 }
 
 .plot-card {
-    background-color: #6a3c45;
-    padding: 30px;
-    margin: 10px;
-    min-width: 315px;
+  background-color: #6a3c45;
+  padding: 30px;
+  margin: 10px;
+  min-width: 315px;
 }
