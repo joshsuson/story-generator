@@ -1,12 +1,13 @@
 * {
   box-sizing: border-box;
-  font-family: "Do Hyeon", sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 body {
   background-color: #e1e9e9;
   padding: 0;
   margin: 0;
+  color: #223f4f;
 }
 
 header {
@@ -119,7 +120,75 @@ h2 {
 .instruction-div {
   background: #223f4f;
   color: #9aa7af;
+  margin-top: 15px;
+  margin-bottom: 0;
+  padding: 15px;
+  text-align: center;
 }
 
 .instruction-div ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.instruction-div li {
+  width: 100%;
+  flex-basis: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.instruction-div li > h3 {
+  text-transform: uppercase;
+  font-size: 1.25em;
+  margin-bottom: 5px;
+}
+
+.instruction-div li > p {
+  font-size: 1.15em;
+  line-height: 1.35em;
+}
+
+.instruction-div li > hr {
+  border: none;
+  border: 3px solid #9aa7af;
+  width: 40%;
+  margin: 0 auto;
+}
+
+footer {
+  background: #0a1216;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  #genreButton {
+    margin-left: 10px;
+  }
+
+  .instruction-div li > hr {
+    width: 20%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .character-card {
+    width: 45%;
+  }
+
+  .plot-card {
+    width: 45%;
+  }
+
+  .instruction-div ul {
+    justify-content: space-evenly;
+  }
+
+  .instruction-div li {
+    flex-basis: 40%;
+  }
 }
